@@ -110,23 +110,19 @@ section h3 {
 
 .delete-btn {
   background: transparent;
-  border: 1px solid #e0e0e0;
-  color: #c62828;
-  border-radius: 50%;
-  width: 26px;
-  height: 26px;
-  line-height: 22px;
-  text-align: center;
+  border: none;
+  padding: 0;
   cursor: pointer;
-  font-weight: 600;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
 }
 
-.delete-btn:hover {
-  background: #ffecec;
+.delete-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+  pointer-events: none;
 }
 
 .form-group {

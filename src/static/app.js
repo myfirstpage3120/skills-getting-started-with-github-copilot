@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 ${details.participants
                   .map(
                     (p) =>
-                      `<li class="participant-item">${p} <button class="delete-btn" data-activity="${name}" data-email="${p}" title="Unregister ${p}">×</button></li>`
+                      `<li class="participant-item">${p} <button class="delete-btn" data-activity="${name}" data-email="${p}" title="Unregister ${p}"><img src="images/delete.svg" alt="Delete" class="delete-icon" /></button></li>`
                   )
                   .join("")}
               </ul>
